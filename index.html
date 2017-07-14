@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <div id="header" class="container-fluid">
+        <div class="row text-center">
+            <h1>Wikipedia Viewer</h1></div>
+    </div>
+    <!-- main-section -->
+    <div id="main-section" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="form-inline text-center">
+                        <div class="form-group">
+                            <input type="text" id="search" class="form-control" placeholder="Search . . ." name="">
+                            <button id="search-submit" class="btn btn-primary">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10" id="result-section">
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+    </div>
+    <!-- footer-section -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
