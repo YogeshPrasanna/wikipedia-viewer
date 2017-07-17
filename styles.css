@@ -16,6 +16,7 @@
 }
 
 .card {
+	min-height: 275px !important;
     background-color: #55acee;
     border: 15px solid #fff;
     padding: 15px;
